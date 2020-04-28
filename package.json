@@ -9,6 +9,11 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "//": "Added nodemon. To run, I can do `npm run dev`",
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }

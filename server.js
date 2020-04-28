@@ -10,7 +10,7 @@ app.use(staticMiddleware);
 // i changed my route because i want my `index.html` to be server from the root
 app.get('/api/json', (req, res) => {
   const json = {};
-  json.message = 'Hello World';
+  json.message = 'Hello!! World!!!!!';
   json.otherMessage = 'Foo Bar Baz';
 
   res.json(json);
