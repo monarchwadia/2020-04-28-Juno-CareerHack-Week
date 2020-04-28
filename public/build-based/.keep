@@ -1,0 +1,3 @@
+Keepfiles are used to make sure folders dont disappear in git.
+
+This is because Git cannot actually commit a folder. It normally only commits files.
