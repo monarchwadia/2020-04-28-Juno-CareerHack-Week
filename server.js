@@ -3,7 +3,8 @@ const express = require('express');
 const app = express();
 
 // register the static "middleware"
-const staticMiddleware = express.static('public')
+const folderInWhichToLook = 'public';
+const staticMiddleware = express.static(folderInWhichToLook)
 app.use(staticMiddleware);
 
 // i changed my route because i want my `index.html` to be server from the root
